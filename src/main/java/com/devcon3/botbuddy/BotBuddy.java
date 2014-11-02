@@ -3,6 +3,7 @@ package com.devcon3.botbuddy;
 import com.devcon3.botbuddy.handler.ConfigurationHandler;
 import com.devcon3.botbuddy.init.ModBlocks;
 import com.devcon3.botbuddy.init.ModItems;
+import com.devcon3.botbuddy.init.Recipes;
 import com.devcon3.botbuddy.proxy.IProxy;
 import com.devcon3.botbuddy.reference.Reference;
 import com.devcon3.botbuddy.utility.LogHelper;
@@ -45,7 +46,7 @@ public class BotBuddy {
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
-
+        Recipes.init();
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
