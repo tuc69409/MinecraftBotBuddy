@@ -1,6 +1,7 @@
 package com.devcon3.botbuddy;
 
 import com.devcon3.botbuddy.handler.ConfigurationHandler;
+import com.devcon3.botbuddy.init.ModItems;
 import com.devcon3.botbuddy.proxy.IProxy;
 import com.devcon3.botbuddy.reference.Reference;
 import com.devcon3.botbuddy.utility.LogHelper;
@@ -22,21 +23,22 @@ public class BotBuddy {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-
+        LogHelper.info("Starting Pre Initialization!");
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        ModItems.init();
         LogHelper.info("Pre Initialization Complete!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
-
+        LogHelper.info("Starting Initialization!");
         LogHelper.info("Initialization Complete!");
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
-
+        LogHelper.info("Starting Post Initialization!");
         LogHelper.info("Post Initialization Complete!");
     }
 
