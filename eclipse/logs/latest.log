@@ -1,11 +1,39 @@
-[01:42:54] [main/INFO]: Setting user: Player984
-[01:42:55] [Client thread/INFO]: LWJGL Version: 2.9.1
-[01:43:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
-[01:43:01] [Sound Library Loader/INFO]: Sound engine started
-[01:43:02] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[01:43:02] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[01:43:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
-[01:43:02] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[01:43:02] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[01:43:03] [Sound Library Loader/INFO]: Sound engine started
-[01:43:23] [Client thread/INFO]: Stopping!
+[02:36:26] [main/INFO]: Setting user: Player468
+[02:36:27] [Client thread/INFO]: LWJGL Version: 2.9.1
+[02:36:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
+[02:36:33] [Sound Library Loader/INFO]: Sound engine started
+[02:36:33] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[02:36:33] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[02:36:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
+[02:36:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[02:36:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[02:36:34] [Sound Library Loader/INFO]: Sound engine started
+[02:36:40] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[02:36:40] [Server thread/INFO]: Generating keypair
+[02:36:40] [Server thread/INFO]: Converting map!
+[02:36:40] [Server thread/INFO]: Scanning folders...
+[02:36:40] [Server thread/INFO]: Total conversion count is 0
+[02:36:40] [Server thread/INFO]: Preparing start region for level 0
+[02:36:41] [Server thread/INFO]: Preparing spawn area: 17%
+[02:36:42] [Server thread/INFO]: Preparing spawn area: 35%
+[02:36:43] [Server thread/INFO]: Preparing spawn area: 62%
+[02:36:44] [Server thread/INFO]: Preparing spawn area: 89%
+[02:36:45] [Server thread/INFO]: Changing view distance to 12, from 10
+[02:36:45] [Server thread/INFO]: Player468[local:E:827b4c7f] logged in with entity id 193 at (241.5, 72.0, 253.5)
+[02:36:45] [Server thread/INFO]: Player468 joined the game
+[02:36:49] [Server thread/INFO]: Saving and pausing game...
+[02:36:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:36:51] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:36:51] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:36:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2573ms behind, skipping 51 tick(s)
+[02:37:05] [Server thread/INFO]: Saving and pausing game...
+[02:37:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:37:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:37:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:37:06] [Server thread/INFO]: Stopping server
+[02:37:06] [Server thread/INFO]: Saving players
+[02:37:06] [Server thread/INFO]: Saving worlds
+[02:37:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[02:37:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[02:37:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[02:37:08] [Client thread/INFO]: Stopping!

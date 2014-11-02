@@ -1,5 +1,8 @@
 package com.devcon3.botbuddy.handler;
 
+import com.devcon3.botbuddy.reference.Reference;
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;
@@ -8,34 +11,32 @@ public class ConfigurationHandler {
 
 
     public static Configuration configuration;
+    public static boolean testValue = false;
 
     public static void init(File configFile){
 
         //Create configuration object from given configuration file
-        configuration = new Configuration(configFile);
-        boolean configValue = false;
-        try{
-
-            //Load configuration file
-            configuration.load();
-
-            //Read properties from configuration file
-
-            configValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "This is and example config value").getBoolean(true);
-        }
-        catch (Exception ex)
-        {
-            //Log exception
-        }
-        finally {
-
-            //Save configuration file
-            if(configuration.hasChanged()) {
-                configuration.save();
-            }
+        if(configuration == null) {
+            configuration = new Configuration(configFile);
+            loadConfiguration();
         }
 
-        System.out.println(configValue);
+    }
 
+    @SubscribeEvent
+    public void onConfigurationChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event){
+
+        if(event.modID.equalsIgnoreCase(Reference.MOD_ID)){
+            loadConfiguration();
+        }
+    }
+
+    private static void loadConfiguration(){
+
+        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
+
+        if(configuration.hasChanged()){
+            configuration.save();
+        }
     }
 }
