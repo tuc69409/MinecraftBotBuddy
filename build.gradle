@@ -18,7 +18,7 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.7.10-1.0"
-group= "com.codyjamescasey.botbuddy" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group= "com.devcon3.botbuddy" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "BotBuddy"
 
 minecraft {
