@@ -1,3 +1,14 @@
-item.botbuddy:mapleLeaf.name=Maple Leaf of Awesomeness
-tile.botbuddy:flag.name=Canadian Flag of Awesomeness
+#Keys
+keys.buddybot.category=Bot Buddy
+keys.buddybot.charge=Charge
+keys.buddybot.release=Release
+
+
+#Creative Tabs
 itemGroup.botbuddy=Bot Buddy
+
+#Items
+item.botbuddy:mapleLeaf.name=Maple Leaf of Awesomeness
+
+#Blocks
+tile.botbuddy:flag.name=Canadian Flag of Awesomeness

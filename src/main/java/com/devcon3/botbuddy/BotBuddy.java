@@ -1,5 +1,6 @@
 package com.devcon3.botbuddy;
 
+import com.devcon3.botbuddy.client.handler.KeyInputEventHandler;
 import com.devcon3.botbuddy.handler.ConfigurationHandler;
 import com.devcon3.botbuddy.init.ModBlocks;
 import com.devcon3.botbuddy.init.ModItems;
@@ -30,10 +31,17 @@ public class BotBuddy {
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        proxy.registerKeyBindings();
+
         ModItems.init();
+
         ModBlocks.init();
+
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
@@ -46,7 +54,11 @@ public class BotBuddy {
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+
         Recipes.init();
+
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
