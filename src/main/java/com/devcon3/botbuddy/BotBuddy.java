@@ -1,6 +1,6 @@
 package com.devcon3.botbuddy;
 
-import com.devcon3.botbuddy.configuration.ConfigurationHandler;
+import com.devcon3.botbuddy.handler.ConfigurationHandler;
 import com.devcon3.botbuddy.proxy.IProxy;
 import com.devcon3.botbuddy.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -8,8 +8,6 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-
-import java.sql.Ref;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class BotBuddy {
