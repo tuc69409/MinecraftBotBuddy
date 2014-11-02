@@ -10,13 +10,13 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 import java.sql.Ref;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class BotBuddy {
 
     @Mod.Instance(Reference.MOD_ID)
     public static BotBuddy instance;
 
-    @SidedProxy(clientSide = "com.devcon3.botbuddy.proxy.ClientProxy", serverSide = "com.devcon3.botbuddy.proxy.ServerProxy")
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
 
     @Mod.EventHandler
