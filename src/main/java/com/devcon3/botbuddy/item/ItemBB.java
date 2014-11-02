@@ -1,6 +1,6 @@
 package com.devcon3.botbuddy.item;
 
-import assets.botbuddy.creativetab.CreativeTabBB;
+import com.devcon3.botbuddy.creativetab.CreativeTabBB;
 import com.devcon3.botbuddy.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
