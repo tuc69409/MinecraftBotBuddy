@@ -1,5 +1,6 @@
 package com.devcon3.botbuddy;
 
+import com.devcon3.botbuddy.configuration.ConfigurationHandler;
 import com.devcon3.botbuddy.proxy.IProxy;
 import com.devcon3.botbuddy.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -22,6 +23,7 @@ public class BotBuddy {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
 
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
