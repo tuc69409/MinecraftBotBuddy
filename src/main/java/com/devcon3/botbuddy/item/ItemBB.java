@@ -1,5 +1,6 @@
 package com.devcon3.botbuddy.item;
 
+import assets.botbuddy.creativetab.CreativeTabBB;
 import com.devcon3.botbuddy.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemBB extends Item {
     public ItemBB(){
 
         super();
+        this.setCreativeTab(CreativeTabBB.BB_Tab);
     }
 
     @Override

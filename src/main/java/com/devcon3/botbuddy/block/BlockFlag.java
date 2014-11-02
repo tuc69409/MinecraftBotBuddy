@@ -1,5 +1,6 @@
 package com.devcon3.botbuddy.block;
 
+
 public class BlockFlag extends BlockBB{
 
     public BlockFlag(){
