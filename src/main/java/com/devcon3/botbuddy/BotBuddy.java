@@ -5,6 +5,7 @@ import com.devcon3.botbuddy.handler.ConfigurationHandler;
 import com.devcon3.botbuddy.init.ModBlocks;
 import com.devcon3.botbuddy.init.ModItems;
 import com.devcon3.botbuddy.init.Recipes;
+import com.devcon3.botbuddy.mob.EntityBotBuddy;
 import com.devcon3.botbuddy.proxy.IProxy;
 import com.devcon3.botbuddy.reference.Reference;
 import com.devcon3.botbuddy.utility.LogHelper;
@@ -41,6 +42,10 @@ public class BotBuddy {
         ModItems.init();
 
         ModBlocks.init();
+
+        EntityBotBuddy.mainRegistry();
+
+
 
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
