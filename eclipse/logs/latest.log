@@ -1,27 +1,27 @@
-[20:47:11] [main/INFO]: Setting user: Player31
-[20:47:12] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:47:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
-[20:47:16] [Sound Library Loader/INFO]: Sound engine started
-[20:47:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:47:16] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:47:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
-[20:47:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:47:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:47:17] [Sound Library Loader/INFO]: Sound engine started
-[20:47:20] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:47:20] [Server thread/INFO]: Generating keypair
-[20:47:20] [Server thread/INFO]: Preparing start region for level 0
-[20:47:20] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:47:21] [Server thread/INFO]: Player31[local:E:22d0eb12] logged in with entity id 265 at (-2105.3260942560346, 4.0, 962.4497567830552)
-[20:47:21] [Server thread/INFO]: Player31 joined the game
-[20:47:27] [Server thread/INFO]: Saving and pausing game...
-[20:47:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[20:47:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[20:47:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[20:47:28] [Server thread/INFO]: Stopping server
-[20:47:28] [Server thread/INFO]: Saving players
-[20:47:28] [Server thread/INFO]: Saving worlds
-[20:47:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[20:47:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[20:47:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[20:47:29] [Client thread/INFO]: Stopping!
+[18:50:49] [main/INFO]: Setting user: Player93
+[18:50:50] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:50:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
+[18:50:56] [Sound Library Loader/INFO]: Sound engine started
+[18:50:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:50:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:50:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
+[18:50:58] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:50:58] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:50:58] [Sound Library Loader/INFO]: Sound engine started
+[18:51:06] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:51:06] [Server thread/INFO]: Generating keypair
+[18:51:06] [Server thread/INFO]: Preparing start region for level 0
+[18:51:07] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:51:07] [Server thread/INFO]: Player93[local:E:1b375d94] logged in with entity id 267 at (-2111.2146204426294, 4.0, 961.7123319553272)
+[18:51:07] [Server thread/INFO]: Player93 joined the game
+[18:51:12] [Server thread/INFO]: Saving and pausing game...
+[18:51:12] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:51:12] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:51:12] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:52:59] [Server thread/INFO]: Stopping server
+[18:52:59] [Server thread/INFO]: Saving players
+[18:52:59] [Server thread/INFO]: Saving worlds
+[18:52:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:52:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:52:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:53:00] [Client thread/INFO]: Stopping!
