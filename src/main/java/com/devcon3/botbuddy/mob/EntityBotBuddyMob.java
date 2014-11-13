@@ -1,5 +1,6 @@
 package com.devcon3.botbuddy.mob;
 
+import com.devcon3.botbuddy.tasks.EntityAIMoveToLocation;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIPanic;
@@ -16,9 +17,11 @@ public class EntityBotBuddyMob extends EntityAnimal{
     public EntityBotBuddyMob(World par1World) {
         super(par1World);
         this.setSize(.7F, 4F);
-        this.tasks.addTask(0, new EntityAIWander(this, 0.5));
-        this.tasks.addTask(1, new EntityAIPanic(this, 0.7));
-        this.tasks.addTask(2, new EntityAITempt(this, 0.7, Items.cooked_beef, false));
+
+        this.tasks.addTask(0, new EntityAIPanic(this, 0.7));
+        this.tasks.addTask(1, new EntityAITempt(this, 0.7, Items.cooked_beef, false));
+        this.tasks.addTask(2, new EntityAIMoveToLocation(this, 0.7));
+        //this.tasks.addTask(3, new EntityAIWander(this, 0.5));
     }
 
     public boolean isAIEnabled(){
