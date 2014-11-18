@@ -4,6 +4,7 @@ import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.ai.EntityAIBase;
 import net.minecraft.entity.ai.RandomPositionGenerator;
 import net.minecraft.util.Vec3;
+import net.minecraftforge.client.event.RenderGameOverlayEvent;
 
 import java.util.Scanner;
 
@@ -41,7 +42,12 @@ public class EntityAIMoveToLocation extends EntityAIBase
 
             Scanner kb = new Scanner(System.in);
 
+
             System.out.println("Pls enter coordinates");
+
+
+            
+
 
             double x_coord = kb.nextDouble();
             double y_coord = kb.nextDouble();
