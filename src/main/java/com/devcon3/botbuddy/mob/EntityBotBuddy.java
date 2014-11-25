@@ -23,7 +23,6 @@ public class EntityBotBuddy {
         int randomId = EntityRegistry.findGlobalUniqueEntityId();
         EntityRegistry.registerGlobalEntityID(entityClass, entityName, randomId);
         EntityRegistry.registerModEntity(entityClass, entityName, randomId, BotBuddy.instance, 64, 1, true);
-        EntityRegistry.addSpawn(entityClass, 2, 0, 1, EnumCreatureType.creature, BiomeGenBase.desert);
 
         createEgg(randomId, solidColor, spotColor);
     }

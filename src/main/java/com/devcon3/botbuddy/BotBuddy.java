@@ -1,6 +1,7 @@
 package com.devcon3.botbuddy;
 
 import com.devcon3.botbuddy.client.handler.KeyInputEventHandler;
+import com.devcon3.botbuddy.command.CommandMoveToLocation;
 import com.devcon3.botbuddy.handler.ConfigurationHandler;
 import com.devcon3.botbuddy.init.ModBlocks;
 import com.devcon3.botbuddy.init.ModItems;
@@ -15,6 +16,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
@@ -68,6 +70,13 @@ public class BotBuddy {
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         LogHelper.info("Initialization Complete!");
+    }
+
+    @Mod.EventHandler
+    public void serverLoad (FMLServerStartingEvent event){
+
+        event.registerServerCommand(new CommandMoveToLocation());
+
     }
 
     @Mod.EventHandler
