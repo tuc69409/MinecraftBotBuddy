@@ -7,6 +7,7 @@ import com.devcon3.botbuddy.init.ModBlocks;
 import com.devcon3.botbuddy.init.ModItems;
 import com.devcon3.botbuddy.init.Recipes;
 import com.devcon3.botbuddy.mob.EntityBotBuddy;
+import com.devcon3.botbuddy.mob.EntityBotBuddyMob;
 import com.devcon3.botbuddy.proxy.IProxy;
 import com.devcon3.botbuddy.reference.Reference;
 import com.devcon3.botbuddy.utility.LogHelper;
@@ -17,6 +18,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)

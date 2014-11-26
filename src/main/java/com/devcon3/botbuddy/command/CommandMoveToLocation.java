@@ -48,7 +48,9 @@ public class CommandMoveToLocation extends CommandBase
     @Override
     public void processCommand(ICommandSender icommandsender, String[] astring)
     {
-        
+
+        EntityBotBuddyMob theBot = (EntityBotBuddyMob) Minecraft.getMinecraft().pointedEntity;
+
         EntityPlayerMP thePlayer = getCommandSenderAsPlayer(icommandsender);
         ChunkCoordinates coordinates;
 
@@ -65,6 +67,7 @@ public class CommandMoveToLocation extends CommandBase
             coordinates = thePlayer.getPlayerCoordinates();
 
             icommandsender.addChatMessage(new ChatComponentText("Moving to " + coordinates.toString()));
+            theBot.moveCommand(coordinates);
             return;
         }
         if(astring.length < 3)
@@ -87,6 +90,14 @@ public class CommandMoveToLocation extends CommandBase
 
         coordinates = new ChunkCoordinates(x, y, z);
 
+        theBot.x_dest = Double.parseDouble(Integer.toString(coordinates.posX));
+        theBot.y_dest = Double.parseDouble(Integer.toString(coordinates.posY));
+        theBot.z_dest = Double.parseDouble(Integer.toString(coordinates.posZ));
+
+        theBot.currentOrder = "move";
+
+       // icommandsender.addChatMessage(new ChatComponentText("Moving to " + coordinates.toString()));
+      //  theBot.moveCommand(coordinates);
         icommandsender.addChatMessage(new ChatComponentText("Moving to " + coordinates.toString()));
 
     }
