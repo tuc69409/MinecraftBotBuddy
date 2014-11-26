@@ -1,27 +1,49 @@
-[18:50:49] [main/INFO]: Setting user: Player93
-[18:50:50] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:50:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
-[18:50:56] [Sound Library Loader/INFO]: Sound engine started
-[18:50:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:50:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:50:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
-[18:50:58] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:50:58] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:50:58] [Sound Library Loader/INFO]: Sound engine started
-[18:51:06] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:51:06] [Server thread/INFO]: Generating keypair
-[18:51:06] [Server thread/INFO]: Preparing start region for level 0
-[18:51:07] [Server thread/INFO]: Changing view distance to 12, from 10
-[18:51:07] [Server thread/INFO]: Player93[local:E:1b375d94] logged in with entity id 267 at (-2111.2146204426294, 4.0, 961.7123319553272)
-[18:51:07] [Server thread/INFO]: Player93 joined the game
-[18:51:12] [Server thread/INFO]: Saving and pausing game...
-[18:51:12] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[18:51:12] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[18:51:12] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[18:52:59] [Server thread/INFO]: Stopping server
-[18:52:59] [Server thread/INFO]: Saving players
-[18:52:59] [Server thread/INFO]: Saving worlds
-[18:52:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[18:52:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[18:52:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[18:53:00] [Client thread/INFO]: Stopping!
+[13:11:28] [main/INFO]: Setting user: Player748
+[13:11:29] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:11:29] [Client thread/ERROR]: Couldn't initialize twitch stream
+[13:11:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
+[13:11:36] [Sound Library Loader/INFO]: Sound engine started
+[13:11:36] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:11:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[13:11:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
+[13:11:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:11:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[13:11:38] [Sound Library Loader/INFO]: Sound engine started
+[13:11:41] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[13:11:41] [Server thread/INFO]: Generating keypair
+[13:11:41] [Server thread/INFO]: Preparing start region for level 0
+[13:11:42] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:11:42] [Client thread/INFO]: Realms library version == 1.3.5
+[13:11:43] [Server thread/INFO]: Player748[local:E:5ee2bb4f] logged in with entity id 199 at (-1178.2528584935117, 4.0, 949.4539969235914)
+[13:11:43] [Server thread/INFO]: Player748 joined the game
+[13:11:43] [Server thread/INFO]: Saving and pausing game...
+[13:11:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:11:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:11:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:11:43] [MCO Availability Checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:11:43] [MCO Availability Checker #1/ERROR]: Couldn't connect to realms: 
+[13:12:09] [Server thread/INFO]: Saving and pausing game...
+[13:12:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:12:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:12:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:12:09] [Server thread/INFO]: Stopping server
+[13:12:09] [Server thread/INFO]: Saving players
+[13:12:09] [Server thread/INFO]: Saving worlds
+[13:12:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:12:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:12:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:12:10] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[13:12:10] [Server thread/INFO]: Generating keypair
+[13:12:10] [Server thread/INFO]: Preparing start region for level 0
+[13:12:10] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:12:11] [Server thread/INFO]: Player748[local:E:4be02af9] logged in with entity id 48071 at (-1178.2528584935117, 4.0, 949.4539969235914)
+[13:12:11] [Server thread/INFO]: Player748 joined the game
+[13:12:15] [Client thread/INFO]: [CHAT] [EntityClientPlayerMP['Player748'/48071, l='MpServer', x=-1178.25, y=5.62, z=949.45], EntityPig['Pig'/48000, l='MpServer', x=-1151.13, y=4.00, z=975.94], EntityCow['Cow'/48013, l='MpServer', x=-1147.28, y=4.00, z=969.63], EntityHorse['Horse'/48014, l='MpServer', x=-1150.97, y=4.00, z=971.53], EntityHorse['Horse'/48015, l='MpServer', x=-1147.87, y=4.00, z=971.78], EntityCow['Cow'/48016, l='MpServer', x=-1141.13, y=4.00, z=969.94], EntityPig['Pig'/48017, l='MpServer', x=-1149.19, y=4.00, z=984.50], EntityPig['Pig'/48018, l='MpServer', x=-1144.50, y=4.00, z=981.38], EntityCow['Cow'/48019, l='MpServer', x=-1150.19, y=4.00, z=990.13], EntityCow['Cow'/48001, l='MpServer', x=-1157.91, y=4.00, z=986.94], EntityPig['Pig'/47976, l='MpServer', x=-1177.91, y=4.00, z=917.91], EntityHorse['Horse'/47977, l='MpServer', x=-1169.54, y=4.00, z=922.91], EntityPig['Pig'/47978, l='MpServer', x=-1183.28, y=4.00, z=915.84], EntityHorse['Horse'/47993, l='MpServer', x=-1157.50, y=4.00, z=916.56], EntityHorse['Horse'/47994, l='MpServer', x=-1155.94, y=4.00, z=916.53], EntityHorse['Horse'/47995, l='MpServer', x=-1156.00, y=4.00, z=914.94], EntityHorse['Horse'/47996, l='MpServer', x=-1167.88, y=4.00, z=924.47], EntityChicken['Chicken'/47997, l='MpServer', x=-1153.81, y=4.00, z=912.03], EntityCow['Cow'/47998, l='MpServer', x=-1154.09, y=4.00, z=914.81], EntityCow['Cow'/47999, l='MpServer', x=-1154.78, y=4.00, z=918.19], EntityCow['Cow'/48010, l='MpServer', x=-1148.38, y=4.00, z=925.34], EntityPig['Pig'/48011, l='MpServer', x=-1144.97, y=4.00, z=924.84], EntityHorse['Horse'/48012, l='MpServer', x=-1139.28, y=4.00, z=927.63], EntityPig['Pig'/48020, l='MpServer', x=-1139.06, y=4.00, z=993.13], EntityChicken['Chicken'/47957, l='MpServer', x=-1220.63, y=4.00, z=984.38], EntityPig['Pig'/47958, l='MpServer', x=-1236.71, y=4.00, z=975.69], EntityPig['Pig'/47955, l='MpServer', x=-1231.09, y=4.00, z=969.94], EntitySheep['Sheep'/47956, l='MpServer', x=-1230.31, y=4.00, z=978.81], EntityPig['Pig'/47961, l='MpServer', x=-1197.22, y=4.00, z=901.72], EntityPig['Pig'/47962, l='MpServer', x=-1194.19, y=4.00, z=906.81], EntityPig['Pig'/47970, l='MpServer', x=-1182.25, y=4.00, z=908.66], EntityCow['Cow'/47971, l='MpServer', x=-1178.50, y=4.00, z=909.50], EntityCow['Cow'/47972, l='MpServer', x=-1171.59, y=4.00, z=912.34], EntityCow['Cow'/47973, l='MpServer', x=-1181.97, y=4.00, z=896.03], EntityCow['Cow'/47974, l='MpServer', x=-1174.50, y=4.00, z=898.50], EntityPig['Pig'/47975, l='MpServer', x=-1188.47, y=4.00, z=912.91], EntityChicken['Chicken'/47989, l='MpServer', x=-1165.34, y=4.00, z=910.44], EntitySheep['Sheep'/47990, l='MpServer', x=-1157.66, y=4.00, z=901.75], EntityPig['Pig'/47991, l='MpServer', x=-1152.94, y=4.00, z=904.94], EntityChicken['Chicken'/47992, l='MpServer', x=-1158.41, y=4.00, z=904.53], EntityCow['Cow'/48009, l='MpServer', x=-1147.16, y=4.00, z=910.09], EntitySheep['Sheep'/48030, l='MpServer', x=-1109.34, y=4.00, z=986.16], EntityPig['Pig'/48032, l='MpServer', x=-1107.84, y=4.00, z=991.66], EntityPig['Pig'/48031, l='MpServer', x=-1106.31, y=4.00, z=1006.84], EntityCow['Cow'/48033, l='MpServer', x=-1109.09, y=4.00, z=995.94], EntityPig['Pig'/48034, l='MpServer', x=-1112.91, y=4.00, z=1001.31], EntityCow['Cow'/48035, l='MpServer', x=-1103.37, y=4.00, z=1002.53], EntityCow['Cow'/48036, l='MpServer', x=-1109.34, y=4.00, z=1010.72], EntityPig['Pig'/47940, l='MpServer', x=-1242.25, y=4.00, z=1018.41], EntityHorse['Horse'/47941, l='MpServer', x=-1239.28, y=4.00, z=1015.25], EntityHorse['Horse'/47942, l='MpServer', x=-1242.19, y=4.00, z=1023.59], EntityPig['Pig'/47943, l='MpServer', x=-1247.19, y=4.00, z=1019.41], EntityHorse['Horse'/47944, l='MpServer', x=-1246.88, y=4.00, z=1027.03], EntityChicken['Chicken'/47939, l='MpServer', x=-1238.56, y=4.00, z=993.41], EntitySheep['Sheep'/47937, l='MpServer', x=-1245.25, y=4.00, z=985.75], EntityPig['Pig'/47938, l='MpServer', x=-1243.06, y=4.00, z=977.97], EntitySheep['Sheep'/47933, l='MpServer', x=-1236.34, y=4.00, z=966.75], EntityChicken['Chicken'/47934, l='MpServer', x=-1238.56, y=4.00, z=960.56], EntityChicken['Chicken'/47935, l='MpServer', x=-1243.53, y=4.00, z=972.44], EntityPig['Pig'/47936, l='MpServer', x=-1242.16, y=4.00, z=972.06], EntityHorse['Horse'/47929, l='MpServer', x=-1238.22, y=4.00, z=947.44], EntityCow['Cow'/47930, l='MpServer', x=-1247.81, y=4.00, z=949.94], EntityChicken['Chicken'/47931, l='MpServer', x=-1245.47, y=4.00, z=951.47], EntityChicken['Chicken'/47932, l='MpServer', x=-1242.84, y=4.00, z=956.88], EntityHorse['Horse'/47928, l='MpServer', x=-1245.38, y=4.00, z=941.13], EntitySheep['Sheep'/47925, l='MpServer', x=-1245.34, y=4.00, z=912.16], EntitySheep['Sheep'/47926, l='MpServer', x=-1247.81, y=4.00, z=915.47], EntitySheep['Sheep'/47927, l='MpServer', x=-1241.94, y=4.00, z=923.97], EntityPig['Pig'/47960, l='MpServer', x=-1200.22, y=4.00, z=892.06], EntitySheep['Sheep'/47968, l='MpServer', x=-1168.25, y=4.00, z=888.41], EntityPig['Pig'/47969, l='MpServer', x=-1171.28, y=4.00, z=884.97], EntityPig['Pig'/47987, l='MpServer', x=-1158.59, y=4.00, z=881.13], EntityChicken['Chicken'/47988, l='MpServer', x=-1153.44, y=4.00, z=889.34], EntityChicken['Chicken'/48005, l='MpServer', x=-1146.47, y=4.00, z=892.53], EntitySheep['Sheep'/48006, l='MpServer', x=-1149.16, y=4.00, z=887.69], EntityChicken['Chicken'/48007, l='MpServer', x=-1147.44, y=4.00, z=885.41], EntityChicken['Chicken'/48008, l='MpServer', x=-1147.53, y=4.00, z=881.53], EntityPig['Pig'/48045, l='MpServer', x=-1102.22, y=4.00, z=1003.63], EntityHorse['Horse'/48047, l='MpServer', x=-1099.19, y=4.00, z=992.59], EntityHorse['Horse'/47913, l='MpServer', x=-1253.59, y=4.00, z=1026.75], EntityHorse['Horse'/47910, l='MpServer', x=-1248.28, y=4.00, z=1021.03], EntityHorse['Horse'/47911, l='MpServer', x=-1255.00, y=4.00, z=1018.09], EntityChicken['Chicken'/47906, l='MpServer', x=-1252.41, y=4.00, z=954.44], EntityCow['Cow'/47907, l='MpServer', x=-1250.88, y=4.00, z=945.81], EntityChicken['Chicken'/47908, l='MpServer', x=-1249.38, y=4.00, z=952.63], EntityHorse['Horse'/47901, l='MpServer', x=-1253.72, y=4.00, z=918.06], EntitySheep['Sheep'/47903, l='MpServer', x=-1254.31, y=4.00, z=925.84], EntitySheep['Sheep'/47904, l='MpServer', x=-1256.88, y=4.00, z=925.16], EntitySheep['Sheep'/47899, l='MpServer', x=-1251.59, y=4.00, z=909.65], EntitySheep['Sheep'/47900, l='MpServer', x=-1252.16, y=4.00, z=910.97], EntityPig['Pig'/47924, l='MpServer', x=-1237.94, y=4.00, z=874.25], EntityPig['Pig'/47952, l='MpServer', x=-1220.94, y=4.00, z=872.97], EntityPig['Pig'/47985, l='MpServer', x=-1153.50, y=4.00, z=877.19], EntitySheep['Sheep'/47986, l='MpServer', x=-1165.22, y=4.00, z=875.72], EntityChicken['Chicken'/48004, l='MpServer', x=-1143.47, y=4.00, z=878.44]]
+[13:12:15] [Client thread/INFO]: [CHAT] Moving to Pos{x=-1179, y=4, z=949}
+[13:14:17] [Client thread/INFO]: Stopping!
+[13:14:17] [Server thread/INFO]: Stopping server
+[13:14:17] [Server thread/INFO]: Saving players
+[13:14:17] [Server thread/INFO]: Saving worlds
+[13:14:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:14:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:14:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
