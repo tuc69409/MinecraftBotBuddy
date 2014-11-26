@@ -1,21 +1,25 @@
-[14:35:14] [main/INFO]: Setting user: Player469
-[14:35:16] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:35:16] [Client thread/ERROR]: Couldn't initialize twitch stream
-[14:35:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
-[14:35:23] [Sound Library Loader/INFO]: Sound engine started
-[14:35:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:35:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:35:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
-[14:35:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:35:25] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:35:26] [Sound Library Loader/INFO]: Sound engine started
-[14:35:32] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:35:32] [Server thread/INFO]: Generating keypair
-[14:35:32] [Server thread/INFO]: Preparing start region for level 0
-[14:35:33] [Server thread/INFO]: Changing view distance to 12, from 10
-[14:35:34] [Server thread/INFO]: Player469[local:E:a6122659] logged in with entity id 230 at (500.0484155087671, 3.0, -269.62845863186607)
-[14:35:34] [Server thread/INFO]: Player469 joined the game
-[14:35:35] [Client thread/WARN]: Failed to load texture: botbuddy:textures/entity/BotBuddy.png
+[14:45:34] [main/INFO]: Setting user: Player500
+[14:45:36] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:45:37] [Client thread/ERROR]: Couldn't initialize twitch stream
+[14:45:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
+[14:45:44] [Sound Library Loader/INFO]: Sound engine started
+[14:45:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:45:45] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:45:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
+[14:45:45] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:45:45] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:45:46] [Sound Library Loader/INFO]: Sound engine started
+[14:45:51] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:45:51] [Server thread/INFO]: Generating keypair
+[14:45:52] [Server thread/INFO]: Preparing start region for level 0
+[14:45:53] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:45:53] [Server thread/INFO]: Player500[local:E:c9343252] logged in with entity id 230 at (501.20937048584443, 4.0, -268.32699277757604)
+[14:45:53] [Server thread/INFO]: Player500 joined the game
+[14:45:54] [Server thread/INFO]: Saving and pausing game...
+[14:45:54] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:45:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:45:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:45:57] [Client thread/WARN]: Failed to load texture: botbuddy:textures/entity/BotBuddy.png
 java.io.FileNotFoundException: botbuddy:textures/entity/BotBuddy.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -50,14 +54,14 @@ java.io.FileNotFoundException: botbuddy:textures/entity/BotBuddy.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[14:35:38] [Server thread/INFO]: Saving and pausing game...
-[14:35:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:35:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:35:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:35:38] [Server thread/INFO]: Stopping server
-[14:35:38] [Server thread/INFO]: Saving players
-[14:35:38] [Server thread/INFO]: Saving worlds
-[14:35:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:35:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:35:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:35:40] [Client thread/INFO]: Stopping!
+[14:46:22] [Server thread/INFO]: Saving and pausing game...
+[14:46:22] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:46:22] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:46:22] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:46:23] [Server thread/INFO]: Stopping server
+[14:46:23] [Server thread/INFO]: Saving players
+[14:46:23] [Server thread/INFO]: Saving worlds
+[14:46:23] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:46:23] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:46:23] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:46:24] [Client thread/INFO]: Stopping!

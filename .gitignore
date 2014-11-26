@@ -1,1 +1,5 @@
-eclipse/
+/*
+!/src
+/src/main/*
+!/src/main/java
+
