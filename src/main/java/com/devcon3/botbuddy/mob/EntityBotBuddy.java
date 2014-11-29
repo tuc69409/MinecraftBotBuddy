@@ -3,8 +3,6 @@ package com.devcon3.botbuddy.mob;
 import com.devcon3.botbuddy.BotBuddy;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import net.minecraft.entity.EntityList;
-import net.minecraft.entity.EnumCreatureType;
-import net.minecraft.world.biome.BiomeGenBase;
 
 public class EntityBotBuddy {
 

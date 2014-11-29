@@ -1,26 +1,17 @@
 package com.devcon3.botbuddy.mob;
 
-import com.devcon3.botbuddy.tasks.EntityAIMoveToLocation;
-import com.devcon3.botbuddy.tasks.EntityAIWaitForOrder;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.eventhandler.EventPriority;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.entity.ai.EntityAIPanic;
-import net.minecraft.entity.ai.EntityAITempt;
-import net.minecraft.entity.ai.EntityAIWander;
-import net.minecraft.entity.monster.EntityMob;
+import net.minecraft.entity.ai.*;
 import net.minecraft.entity.passive.EntityAnimal;
+import net.minecraft.entity.passive.EntityVillager;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.ChunkCoordinates;
-import net.minecraft.util.IChatComponent;
 import net.minecraft.world.World;
-import net.minecraftforge.client.event.ClientChatReceivedEvent;
 
-public class EntityBotBuddyMob extends EntityAnimal{
+public class EntityBotBuddyMob extends EntityAnimal {
 
     public String currentOrder = "null";
     public double x_dest = 0.0;
@@ -30,12 +21,24 @@ public class EntityBotBuddyMob extends EntityAnimal{
     public EntityBotBuddyMob(World par1World) {
         super(par1World);
         this.setSize(.7F, 4F);
+        this.enchantEquipment();
 
-
-
-        this.tasks.addTask(0, new EntityAIPanic(this, 0.7));
-        this.tasks.addTask(1, new EntityAITempt(this, 0.7, Items.cooked_beef, false));
-        this.tasks.addTask(2, new EntityAIWaitForOrder(this));
+       // this.tasks.addTask(0, new collectResources(this, 0.7));
+        this.tasks.addTask(2, new EntityAIAttackOnCollide(this, EntityBotBuddyMob.class, 1.0D, true));
+        this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityBotBuddyMob.class, 0, false));
+        //this.tasks.addTask(2, new EntityAIAttackOnCollide(this, EntityPlayer.class, 1.0D, false));
+       // this.tasks.addTask(4, new EntityAIAttackOnCollide(this, EntityVillager.class, 1.0D, true));
+        this.tasks.addTask(5, new EntityAIMoveTowardsRestriction(this, 1.0D));
+        this.tasks.addTask(6, new EntityAIMoveThroughVillage(this, 1.0D, false));
+        //this.tasks.addTask(7, new EntityAIWander(this, 1.0D));
+        this.tasks.addTask(8, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
+        this.tasks.addTask(8, new EntityAILookIdle(this));
+        this.tasks.addTask(9, new EntityAIOpenDoor(this, true));
+        //this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, true));
+        //this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityPlayer.class, 0, true));
+        this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityVillager.class, 0, false));
+       // this.tasks.addTask(1, new EntityAITempt(this, 0.7, Items.cooked_beef, false));
+     //   this.tasks.addTask(2, new EntityAIWaitForOrder(this));
        // this.tasks.addTask(2, new Entity);
        // this.tasks.addTask(2, new EntityAIMoveToLocation(this, 0.7));
         //this.tasks.addTask(3, new EntityAIWander(this, 0.5));
@@ -83,5 +86,11 @@ public class EntityBotBuddyMob extends EntityAnimal{
     public EntityAgeable createChild(EntityAgeable p_90011_1_) {
         return new EntityBotBuddyMob(worldObj);
     }
+
+    public ItemStack getHeldItem()
+    {
+        return heldItem;
+    }
+    public static ItemStack heldItem = new ItemStack(Items.iron_sword);
 
 }

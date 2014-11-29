@@ -12,8 +12,7 @@ public class ClientProxy extends CommonProxy{
     @Override
     public void registerKeyBindings() {
 
-        RenderingRegistry.registerEntityRenderingHandler(EntityBotBuddyMob.class, new RenderBotBuddyMob(new BotBuddy(), 0));
-
+        RenderingRegistry.registerEntityRenderingHandler(EntityBotBuddyMob.class, new RenderBotBuddyMob(new BotBuddy(), 1.0F));
         ClientRegistry.registerKeyBinding(Keybindings.charge);
         ClientRegistry.registerKeyBinding(Keybindings.release);
     }
