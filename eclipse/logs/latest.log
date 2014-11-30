@@ -1,27 +1,52 @@
-[17:06:56] [main/INFO]: Setting user: Player281
-[17:06:57] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:07:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
-[17:07:02] [Sound Library Loader/INFO]: Sound engine started
-[17:07:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[17:07:03] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[17:07:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
-[17:07:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[17:07:03] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[17:07:04] [Sound Library Loader/INFO]: Sound engine started
-[17:07:07] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[17:07:07] [Server thread/INFO]: Generating keypair
-[17:07:07] [Server thread/INFO]: Preparing start region for level 0
-[17:07:07] [Server thread/INFO]: Changing view distance to 12, from 10
-[17:07:08] [Server thread/INFO]: Player281[local:E:00d0412a] logged in with entity id 169 at (-1638.381614251833, 4.0, 1387.997782250466)
-[17:07:08] [Server thread/INFO]: Player281 joined the game
-[17:07:46] [Server thread/INFO]: Saving and pausing game...
-[17:07:46] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:07:46] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:07:46] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:07:48] [Server thread/INFO]: Stopping server
-[17:07:48] [Server thread/INFO]: Saving players
-[17:07:48] [Server thread/INFO]: Saving worlds
-[17:07:48] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:07:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:07:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:21:23] [Client thread/INFO]: Stopping!
+[17:31:24] [main/INFO]: Setting user: Player687
+[17:31:25] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:31:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
+[17:31:29] [Sound Library Loader/INFO]: Sound engine started
+[17:31:30] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:31:30] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:31:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Bot Buddy
+[17:31:30] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:31:30] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:31:31] [Sound Library Loader/INFO]: Sound engine started
+[17:31:33] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:31:33] [Server thread/INFO]: Generating keypair
+[17:31:33] [Server thread/INFO]: Preparing start region for level 0
+[17:31:34] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:31:34] [Server thread/INFO]: Player687[local:E:5153428e] logged in with entity id 172 at (-1627.9264282908196, 4.0, 1384.5469048044008)
+[17:31:34] [Server thread/INFO]: Player687 joined the game
+[17:31:58] [Client thread/INFO]: [CHAT] Moving to Pos{x=-1628, y=4, z=1378}
+[17:32:01] [Client thread/INFO]: [CHAT] Moving to Pos{x=-1627, y=4, z=1378}
+[17:32:03] [Client thread/INFO]: [CHAT] Moving to Pos{x=-1626, y=4, z=1378}
+[17:32:27] [Server thread/INFO]: Saving and pausing game...
+[17:32:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:32:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:32:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:32:32] [Server thread/INFO]: Stopping server
+[17:32:32] [Server thread/INFO]: Saving players
+[17:32:32] [Server thread/INFO]: Saving worlds
+[17:32:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:32:32] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:32:32] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:33:21] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:33:21] [Server thread/INFO]: Generating keypair
+[17:33:21] [Server thread/INFO]: Preparing start region for level 0
+[17:33:21] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:33:22] [Server thread/INFO]: Player687[local:E:d0d7f327] logged in with entity id 183490 at (-1627.642299872879, 4.0, 1380.8915633077786)
+[17:33:22] [Server thread/INFO]: Player687 joined the game
+[17:33:29] [Server thread/INFO]: Player687 has just earned the achievement [Taking Inventory]
+[17:33:29] [Client thread/INFO]: [CHAT] Player687 has just earned the achievement [Taking Inventory]
+[17:34:23] [Server thread/INFO]: Saving and pausing game...
+[17:34:23] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:34:23] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:34:23] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:34:32] [Server thread/INFO]: Saving and pausing game...
+[17:34:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:34:32] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:34:32] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:34:33] [Server thread/INFO]: Stopping server
+[17:34:33] [Server thread/INFO]: Saving players
+[17:34:33] [Server thread/INFO]: Saving worlds
+[17:34:33] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:34:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:34:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:34:41] [Client thread/INFO]: Stopping!
