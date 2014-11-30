@@ -8,7 +8,7 @@ keys.buddybot.release=Release
 itemGroup.botbuddy=Bot Buddy
 
 #Items
-item.botbuddy:mapleLeaf.name=Maple Leaf of Awesomeness
+item.botbuddy:santaBeard.name=Santa Beard
 
 #Blocks
-tile.botbuddy:flag.name=Canadian Flag of Awesomeness
+tile.botbuddy:hoHoHo.name=Ho Ho Ho
