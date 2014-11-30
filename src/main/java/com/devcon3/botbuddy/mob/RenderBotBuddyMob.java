@@ -13,6 +13,8 @@ public class RenderBotBuddyMob extends RenderBiped {
 
     private static final ResourceLocation mobTextures = new ResourceLocation(Reference.MOD_ID + ":textures/entity/BotBuddy.png");
 
+
+
     protected ModelBiped modelEntity;
 
     private Object ModelBipedMobRightarm;
