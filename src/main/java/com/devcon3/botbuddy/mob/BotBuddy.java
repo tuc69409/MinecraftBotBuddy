@@ -5,18 +5,17 @@
 // - ZeuX
 
 
-
-
-
-
 package com.devcon3.botbuddy.mob;
 
-import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.MathHelper;
 
-public class BotBuddy extends ModelBase
+import java.util.Map;
+
+public class BotBuddy extends ModelBiped
 {
   //fields
   ModelRenderer head;
@@ -98,5 +97,12 @@ public class BotBuddy extends ModelBase
     this.rightleg.rotateAngleX = MathHelper.cos(f  * 0.6662F + (float)Math.PI) * 1.4F * f1;
 
   }
+  public void addRenderer(Map var1)
+  {
+
+    var1.put(EntityBotBuddyMob.class, new RenderBiped(new ModelBiped(),.5f));
+
+  }
+
 
 }
