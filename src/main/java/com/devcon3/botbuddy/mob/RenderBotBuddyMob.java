@@ -2,24 +2,28 @@ package com.devcon3.botbuddy.mob;
 
 
 import com.devcon3.botbuddy.reference.Reference;
+import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.renderer.entity.RenderBiped;
+import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.util.ResourceLocation;
 
 
-public class RenderBotBuddyMob extends RenderBiped {
+public class RenderBotBuddyMob extends RenderLiving {
 
     private static final ResourceLocation mobTextures = new ResourceLocation(Reference.MOD_ID + ":textures/entity/BotBuddy.png");
 
-    protected ModelBiped modelEntity;
+
+
+    protected ModelBase modelEntity;
 
     private Object ModelBipedMobRightarm;
 
-    public RenderBotBuddyMob(ModelBiped parModelBase, float par2){
+    public RenderBotBuddyMob(ModelBase parModelBase, float par2){
         super( parModelBase, par2);
-        modelEntity = ((ModelBiped) mainModel);
+      //  modelEntity = ((ModelBiped) mainModel);
 
     }
 
